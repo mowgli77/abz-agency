@@ -1,0 +1,21 @@
+.header__menu {
+  a {
+    font-family: "Open Sans";
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    margin-left: 29px;
+    &:hover {
+      color: #ef5b4c;
+    }
+    &.header__menu-active {
+      color: #007bff;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header__menu {
+    transform: scale(0);
+  }
+}

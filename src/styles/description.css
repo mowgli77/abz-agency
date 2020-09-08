@@ -1,0 +1,37 @@
+.description {
+  max-width: 1024px;
+  background: url("./images/banner-photo.jpg") no-repeat;
+  background-size: cover;
+}
+.description__content {
+  padding: 107px 460px 115px 30px;
+}
+.description__title {
+  font-family: "Open Sans";
+  font-size: 50px;
+  line-height: 54px;
+  color: whitesmoke;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+  margin-bottom: 27px;
+}
+.description__text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  color: whitesmoke;
+  font-weight: 400;
+  margin-bottom: 33px;
+}
+.description__button {
+  background: #ef5b4c;
+  border: none;
+  padding: 7px 59px;
+  border-radius: 4px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  color: whitesmoke;
+}
+
+/*# sourceMappingURL=description.css.map */

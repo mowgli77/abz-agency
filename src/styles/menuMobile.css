@@ -1,0 +1,49 @@
+.menu__overlay {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.menu__body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 0 auto;
+  padding: 12px 16px 14px 16px;
+  width: 300px;
+  height: 600px;
+  border-radius: 4px;
+}
+.menu__header {
+  height: 40px;
+  border-bottom: solid 1px #c8c8c1;
+}
+.menu__header span {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+}
+.menu__header span:hover {
+  background: #4d5454;
+  cursor: pointer;
+}
+.menu__list {
+  flex: 1 1 300px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 767px) {
+  .modal__window {
+    width: 290px;
+    margin: 30% auto;
+  }
+}
+
+/*# sourceMappingURL=menuMobile.css.map */

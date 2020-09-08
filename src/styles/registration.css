@@ -1,0 +1,27 @@
+.users {
+  background-color: #f9f9f3;
+}
+.users__content {
+  padding: 152px 15px 100px 15px;
+}
+.users__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.users__subtitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+.users__button {
+  display: flex;
+  justify-content: center;
+}
+.users__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 -50px;
+}
+
+/*# sourceMappingURL=registration.css.map */

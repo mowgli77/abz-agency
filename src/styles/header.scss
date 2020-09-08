@@ -1,0 +1,44 @@
+@import "./menuMobile";
+@import "./menuPC";
+
+.header {
+  &__container {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 964px;
+    padding: 0 30px;
+    height: 60px;
+    position: fixed;
+    margin-top: -60px;
+  }
+  &__burger-button {
+    transform: scale(0);
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    &__container {
+      width: 708px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    &__container {
+      width: 330px;
+      height: 40px;
+      padding: 0 15px;
+      margin-top: -40px;
+    }
+    &__burger-button {
+      transform: scale(1);
+      padding-left: 175px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}

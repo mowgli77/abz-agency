@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+@import "./styles/header";
+@import "./styles/banner";
+@import "./styles/footer";
+@import "./styles/common";
+@import "./styles/description";
+@import "./styles/users";
+@import "./styles/registration";
+@import "./styles/formControls";
+@import "./styles/tooltip";
+@import "./styles/modal";
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 768px
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 360px
+  }
+}
+
+
+
+//@media (max-width: 767px) {
+//  .app {
+//    max-width: none
+//  }
+//  .app_content {
+//    width: 100vw;
+//  }
+//  .app h1 {
+//    transform: scale(0);
+//  }
+//}
+//.app_content {
+//  grid-area: content;
+//  max-width: 960px;
+//  background: url("samurai_Back.jpg") fixed;
+//  background-size: contain;
+//}
+//
+

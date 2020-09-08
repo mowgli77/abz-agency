@@ -1,0 +1,24 @@
+.tooltip {
+  cursor: pointer;
+}
+.tooltip:hover .tooltip__content {
+  display: block;
+  animation: tooltip 0.7s ease forwards;
+}
+.tooltip__content {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: whitesmoke;
+  position: absolute;
+  min-width: 280px;
+  min-height: 21px;
+  left: -25%;
+  text-align: left;
+  font-size: 14px;
+  border: solid 1px grey;
+  border-radius: 3px;
+  padding: 0 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+/*# sourceMappingURL=tooltip.css.map */

@@ -1,0 +1,130 @@
+.registration {
+  &__content {
+    padding: 209px 197px 92px 197px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    margin-bottom: 27px;
+    padding: 0 40px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 -50px;
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+
+  &__input {
+    margin: 9px 0 20px 0;
+
+    & input {
+      width: 452px;
+      padding: 9px 0 8px 13px;
+      border-radius: 4px;
+      font-family: "Open Sans";
+      font-size: 14px;
+      border: solid grey 1px;
+
+      &:focus {
+        outline: none;
+        border: solid blue 2px;
+      }
+    }
+
+    & label {
+      font-family: "Open Sans";
+      font-size: 12px;
+      line-height: 30px;
+    }
+  }
+
+  &__position {
+    margin-top: -7px;
+  }
+
+  &__position-block {
+    margin: 17px 0 20px -4px;
+  }
+
+  &__position-item {
+    display: flex;
+    margin-bottom: 8px;
+    cursor: pointer;
+
+    & input {
+      cursor: pointer;
+    }
+  }
+
+  &__photo {
+    margin-top: 8px;
+  }
+
+  &__button {
+    margin: 40px 0 70px 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.form-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 1200px) {
+  .registration {
+    &__content {
+      padding: 113px 165px 45px 172px;
+    }
+
+    &__title {
+      margin-bottom: 16px;
+    }
+  }
+  .form {
+    &__position {
+      margin-top: -8px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .registration {
+    &__content {
+      padding: 76px 15px 10px 14px;
+    }
+  }
+  .form {
+    & form {
+      width: 330px;
+    }
+
+    &__input {
+      & input {
+        width: 315px;
+        padding: 9px 0 8px 13px;
+      }
+    }
+  }
+}
+

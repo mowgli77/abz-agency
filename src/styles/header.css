@@ -1,0 +1,28 @@
+.header {
+  background: green;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 60px;
+}
+
+.header-menu {
+  display: flex;
+}
+.header-menu__item {
+  margin-left: 28.5px;
+}
+.header-menu__item a {
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+.header-menu__item a.header-menu__item-active {
+  color: #CCCCCC;
+}
+
+/*# sourceMappingURL=header.css.map */

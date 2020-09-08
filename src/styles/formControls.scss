@@ -1,0 +1,124 @@
+%label {
+  width: 452px;
+  height: 28px;
+  display: block;
+  border-radius: 3px;
+  vertical-align: center;
+  padding: 8px 0 0 14px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  %label {
+    width: 315px;
+  }
+}
+%button {
+  float: right;
+  overflow: hidden;
+  padding: 9px 15px 8px 15px;
+  margin: -8px -0.5px 0 0;
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: black;
+  background-color: lightgray;
+}
+
+%err-span {
+  font-size: 17px;
+  font-weight: bold;
+  color: red;
+}
+
+$standard-border: solid 1px grey;
+$active-border: solid 2px blue;
+$active-err: solid 2px red;
+
+.err-input {
+  & span {
+    @extend %err-span
+  }
+
+  & input {
+    border: solid red 2px;
+  }
+}
+
+.err-fileinput {
+  & span {
+    @extend %err-span
+  }
+}
+
+.fileinput {
+  & input[type="file"] {
+    display: none;
+  }
+
+  & label {
+    @extend %label;
+    border: $standard-border;
+    color: grey;
+  }
+
+  &__button {
+    @extend %button;
+    border-left: $standard-border
+  }
+}
+
+.fileinput-active {
+  & input[type="file"] {
+    display: none;
+    &:active {
+      display: none;
+    }
+  }
+  & label {
+    @extend %label;
+    border: $active-border;
+    color: black;
+  }
+
+  &__button {
+    @extend %button;
+    border-left: $active-border;
+  }
+}
+
+.fileinput-fill {
+  & input[type="file"] {
+    display: none;
+  }
+
+  & label {
+    @extend %label;
+    border: $standard-border;
+    color: black;
+  }
+
+  &__button {
+    @extend %button;
+    border-left: $standard-border
+  }
+}
+
+.fileinput-err {
+  & input[type="file"] {
+    display: none;
+  }
+
+  & label {
+    @extend %label;
+    border: $active-err;
+    color: grey;
+  }
+
+  &__button {
+    @extend %button;
+    border-left: $active-err;
+  }
+}
+
+

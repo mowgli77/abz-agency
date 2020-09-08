@@ -1,0 +1,64 @@
+.users {
+  background-color: #f9f9f3;
+}
+.users__content {
+  padding: 150px 30px 100px 30px;
+}
+.users__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 69px;
+  letter-spacing: -0.7px;
+}
+.users__block {
+  display: flex;
+}
+.users__block img {
+  width: 340px;
+  margin: 3px 50px 0 23px;
+}
+.users__block__button {
+  background: #ef5b4c;
+  border: none;
+  padding: 7px 59px;
+  border-radius: 4px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  color: whitesmoke;
+}
+.users .block-column {
+  display: flex;
+  flex-direction: column;
+}
+.users .block-column__title {
+  margin-bottom: 20px;
+}
+.users .block-column__text {
+  margin-bottom: 24px;
+  text-align: justify;
+}
+.users .block-column a {
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-size: 16px;
+  color: #ef5b4c;
+  margin-top: 6px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+.users .block-column a:hover {
+  color: #d23727;
+  cursor: pointer;
+}
+.users .block-column a:active {
+  color: #007bff;
+}
+.users .block-column a.active-class {
+  color: #007bff;
+}
+.users .block-column a.block-column__link-active {
+  color: #007bff;
+}
+
+/*# sourceMappingURL=users.css.map */

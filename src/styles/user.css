@@ -1,0 +1,10 @@
+.user {
+  flex: 1 1 33.333%;
+}
+
+.user-block {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=user.css.map */
