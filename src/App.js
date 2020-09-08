@@ -4,8 +4,6 @@ import {Banner, Description, Footer, Header, RegistrationContainer, Users} from 
 
 const App = () => {
 
-
-
     return (
         <div className={'container'}>
             <Header />
